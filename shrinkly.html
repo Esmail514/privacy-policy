@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>Privacy Policy - Shrinkly</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #6C63FF;
+            --secondary-color: #00BFA6;
+            --surface-color: #F9FAFB;
+            --background-color: #F9FAFB;
+            --text-primary: #1F2937;
+            --text-secondary: #4B5563;
+            --card-bg: #FFFFFF;
+            --card-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+            --border-radius: 20px;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --primary-color: #818CF8;
+                --secondary-color: #2DD4BF;
+                --surface-color: #111827;
+                --background-color: #0F172A;
+                --text-primary: #F9FAFB;
+                --text-secondary: #F3F4F6;
+                --card-bg: #1F2937;
+                --card-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+            }
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Outfit', sans-serif;
+            background: var(--background-color);
+            background: linear-gradient(135deg, var(--background-color) 0%, rgba(108, 99, 255, 0.05) 50%, rgba(0, 191, 166, 0.05) 100%);
+            color: var(--text-primary);
+            line-height: 1.6;
+            min-height: 100vh;
+            padding: 40px 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+
+        .logo {
+            width: 100px;
+            height: 100px;
+            border-radius: 24px;
+            margin: 0 auto 24px;
+            box-shadow: 0 10px 20px rgba(108, 99, 255, 0.2);
+            object-fit: cover;
+            display: block;
+        }
+
+        h1 {
+            font-size: 36px;
+            font-weight: 700;
+            color: var(--primary-color);
+            margin-bottom: 12px;
+        }
+
+        .last-updated {
+            font-size: 14px;
+            color: var(--text-secondary);
+            opacity: 0.8;
+        }
+
+        .card {
+            background: var(--card-bg);
+            padding: 30px;
+            border-radius: var(--border-radius);
+            box-shadow: var(--card-shadow);
+            margin-bottom: 24px;
+            border: 1px solid rgba(108, 99, 255, 0.1);
+            transition: all 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            font-size: 22px;
+            font-weight: 600;
+            margin-bottom: 16px;
+            color: var(--primary-color);
+            display: flex;
+            align-items: center;
+        }
+
+        h2::before {
+            content: '';
+            display: inline-block;
+            width: 4px;
+            height: 24px;
+            background: var(--secondary-color);
+            margin-right: 14px;
+            border-radius: 2px;
+        }
+
+        p {
+            margin-bottom: 16px;
+            color: var(--text-secondary);
+            font-size: 16px;
+        }
+
+        ul {
+            margin-bottom: 16px;
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 10px;
+            color: var(--text-secondary);
+            font-size: 16px;
+        }
+
+        a {
+            color: var(--primary-color);
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s ease;
+        }
+
+        a:hover {
+            opacity: 0.8;
+            text-decoration: underline;
+        }
+
+        .contact-btn {
+            display: inline-block;
+            background: var(--primary-color);
+            color: white !important;
+            padding: 14px 28px;
+            border-radius: 14px;
+            margin-top: 12px;
+            font-weight: 600;
+            box-shadow: 0 4px 12px rgba(108, 99, 255, 0.3);
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 60px;
+            padding-bottom: 40px;
+            color: var(--text-secondary);
+            font-size: 14px;
+            opacity: 0.7;
+        }
+
+        @media (max-width: 600px) {
+            body {
+                padding: 30px 15px;
+            }
+
+            h1 {
+                font-size: 28px;
+            }
+
+            .card {
+                padding: 20px;
+            }
+
+            .logo {
+                width: 80px;
+                height: 80px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <img src="./imgs/logo.png" alt="Shrinkly Logo" class="logo">
+            <h1>Privacy Policy</h1>
+            <p class="last-updated">Last updated: March 18, 2026</p>
+        </header>
+
+        <main>
+            <section class="card">
+                <h2>Introduction</h2>
+                <p>This privacy policy is applicable to the <strong>Shrinkly</strong> app (hereinafter referred to as
+                    "Application") for mobile devices, which was developed by Esmail (hereinafter referred to as
+                    "Service Provider") as an Ad Supported service. This service is provided "AS IS".</p>
+            </section>
+
+            <section class="card">
+                <h2>Information Collection</h2>
+                <p>The Application acquires any information you supply when you download and register the Application.
+                    Registration with the Service Provider is not mandatory. However, please bear in mind that you might
+                    not be able to utilize some of the features offered by the Application unless you register.</p>
+                <p>The Service Provider may also use the information you provided them to contact you from time to time
+                    to provide you with important information, required notices, and marketing promotions.</p>
+            </section>
+
+            <section class="card">
+                <h2>Automatic Collection</h2>
+                <p>In addition, the Application may collect certain information automatically, including, but not
+                    limited to:</p>
+                <ul>
+                    <li>The type of mobile device you use</li>
+                    <li>Your mobile device's unique device ID</li>
+                    <li>The IP address of your mobile device</li>
+                    <li>Your mobile operating system</li>
+                    <li>The type of mobile Internet browsers you use</li>
+                    <li>Information about the way you use the Application</li>
+                </ul>
+            </section>
+
+            <section class="card">
+                <h2>Location & Data</h2>
+                <p>This Application does not gather precise information about the location of your mobile device.</p>
+                <p>The Application does not use Artificial Intelligence (AI) technologies to process your data or
+                    provide features.</p>
+            </section>
+
+            <section class="card">
+                <h2>Third-Party Services</h2>
+                <p>Only aggregated, anonymized data is periodically transmitted to external services to aid the Service
+                    Provider in improving the Application. The Application utilizes the following third-party services:
+                </p>
+                <ul>
+                    <li><a href="https://www.google.com/policies/privacy/" target="_blank">Google Play Services</a></li>
+                    <li><a href="https://support.google.com/admob/answer/6128543?hl=en" target="_blank">AdMob</a></li>
+                    <li><a href="https://www.appodeal.com/home/privacy-policy/" target="_blank">Appodeal</a></li>
+                </ul>
+            </section>
+
+            <section class="card">
+                <h2>Information Disclosure</h2>
+                <p>The Service Provider may disclose your information:</p>
+                <ul>
+                    <li>As required by law, such as to comply with a subpoena or similar legal process.</li>
+                    <li>When they believe in good faith that disclosure is necessary to protect their rights, your
+                        safety, or the safety of others.</li>
+                    <li>With trusted services providers who work on their behalf and follow this privacy statement.</li>
+                </ul>
+            </section>
+
+            <section class="card">
+                <h2>Retention & Opt-out</h2>
+                <p>You can halt all collection of information by uninstalling the Application. The Service Provider will
+                    retain User Provided data for as long as you use the Application. Automatically Collected
+                    information will be retained for up to 24 months.</p>
+            </section>
+
+            <section class="card">
+                <h2>Security</h2>
+                <p>We provide physical, electronic, and procedural safeguards to protect the information we process.
+                    While we endeavor to provide reasonable security, no system can prevent all potential security
+                    breaches.</p>
+            </section>
+
+            <section class="card">
+                <h2>Contact & Changes</h2>
+                <p>This Privacy Policy may be updated from time to time. If you have any questions regarding privacy
+                    while using the Application, please contact us via email:</p>
+                <a href="mailto:asasesmail514@gmail.com" class="contact-btn">Email Support team</a>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2026 Shrinkly. All rights reserved.</p>
+            <p style="font-size: 11px; margin-top: 10px; opacity: 0.6;">Designed by Esmail</p>
+        </footer>
+    </div>
+</body>
+
+</html>
